@@ -1,0 +1,199 @@
+/*FONTS*/
+
+@font-face {
+  font-family: 'Garamond';
+  src: url('../Fonts/ITCGaramondStd-Lt.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'MiltonOne';
+  src: url('../Fonts/Milton_One_Bold.otf') format('opentype');
+}
+
+/*Articles*/
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+#news li {
+  display: inline-block;
+  /*margin: 0 10px;*/
+}
+
+#news li a {
+  text-decoration: none;
+  color: #a0848e;
+}
+
+#news img {
+  display: inline;
+}
+
+article {
+  height: 700px;
+}
+
+.article-content {
+  margin-top: 10px;
+  width: 665px;
+  position: relative;
+}
+
+.article-date {
+  font-family: 'MiltonOne', sans-serif;
+  font-size: 52px;
+  font-weight: bold;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-family: 'Garamond', serif;
+  font-size: 30px;
+}
+
+.article-more {
+  font-size: 17px;
+}
+
+#mainNav {
+  background-color: #212529;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 12px;
+  right: 0;
+  padding: 13px;
+  text-transform: uppercase;
+  color: white;
+  border: 0;
+  background-color: ##212529;
+  font-family: 'Raleway';
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-size: 90%;
+  font-weight: 400;
+  padding: 0.75em 0;
+  letter-spacing: 1px;
+  color: white;
+  font-family: 'Raleway';
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: ##6c757d;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+    background-color: transparent;
+  }
+  #mainNav .navbar-brand {
+    font-size: 1.75em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    padding: 1.1em 1em !important;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #6c757d;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.25em;
+    padding: 12px 0;
+  }
+}
+
+.img-fluid {
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+header.masthead {
+  text-align: center;
+  color: white;
+  background: url(../img/homepage-caribbean-rdv.jpg);
+  /*1340x842 */
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+.intro-lead-in {
+  font-size: 78px;
+  line-height: 80px;
+  margin-top: 90px;
+  margin-bottom: 25px;
+  font-family: "MiltonOne";
+}
+
+.js-scroll-trigger {
+  font-family: 'Raleway', sans-serif;
+}
+
+#map .section-heading {
+  font-size: 54px;
+  margin-bottom: 25px;
+  font-family: "MiltonOne";
+}
+
+#map .row {
+  font-family: "Garamond";
+  font-size: 40px;
+}
+
+#map .img-fluid {
+  text-align: center;
+  color: white;
+  background: url(../img/caribbean-rdv-map.jpg);
+  /*1340x842 */
+}
+
+#news .section-heading {
+  font-size: 54px;
+  margin-bottom: 25px;
+  font-family: "MiltonOne";
+}
+
+#carousel .section-heading {
+  font-size: 54px;
+  margin-bottom: 25px;
+  font-family: "MiltonOne";
+}
+
+#work .section-heading {
+  font-size: 54px;
+  margin-bottom: 25px;
+  font-family: "MiltonOne";
+}
+
+#contact .section-heading {
+  font-size: 54px;
+  margin-bottom: 25px;
+  font-family: "MiltonOne";
+}
