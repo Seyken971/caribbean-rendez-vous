@@ -1,19 +1,19 @@
 /*FONTS*/
 
 @font-face {
-  font-family: 'Garamond';
-  src: url('../Fonts/ITCGaramondStd-Lt.otf') format('opentype');
+  font-family: "Garamond";
+  src: url("../Fonts/ITCGaramondStd-Lt.otf") format("opentype");
 }
 
 @font-face {
-  font-family: 'MiltonOne';
-  src: url('../Fonts/Milton_One_Bold.otf') format('opentype');
+  font-family: "MiltonOne";
+  src: url("../Fonts/Milton_One_Bold.otf") format("opentype");
 }
 
 /*Articles*/
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 #news li {
@@ -153,7 +153,7 @@ header.masthead {
 }
 
 .js-scroll-trigger {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 #map .section-heading {
